@@ -18,7 +18,7 @@ public class TC01_Login_Test {
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 	
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
-		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
+		driver.findElement(By.id("txtPassword")).sendKeys("admin1234");
 		driver.findElement(By.id("btnLogin")).click();
 		
 		driver.quit();
